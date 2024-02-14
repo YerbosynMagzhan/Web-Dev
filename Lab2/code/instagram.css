@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    overflow-y: visible;
+    height: 100%;
+}
+
+.globalcontainer{
+    min-height: inherit;
+    flex-direction: column;
+}
+
+.container{
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.mainContent{
+    width: 100%;
+    margin-top: 32px;
+    padding-top: 0;
+    max-width: var(--polaris-site-width-wide);
+    border-bottom-width: 0;
+    padding-bottom: 32px;
+    border-left-width: 0;
+    justify-content: center;
+    margin-right: auto;
+    padding-left: 0;
+    font-size: 100%;
+    border-right-width: 0;
+    display: flex;
+}
+
+.twoPics{
+    height: 581.15px;
+    margin-bottom: 12px;
+    background-size: 468.32px 634.15px;
+    background-image: url(/Lab2/ui/InstaBack.png);
+    align-self: center;
+    flex-basis: 380.32px;
+    margin-right: 32px;
+    background-position: -46px 0;
+}
+
+.pics{
+    padding-top: 0;
+    margin-top: 27px;
+    margin-left: 112px;
+}
+
+#logo{
+    left: 0;
+    width: 250px;
+    height: 538.84px;
+}
+
+.panel{
+    color: rgb(var(--ig-primary-text));
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px;
+}
+
+#logo{
+    width: 174px;
+    height: 75px;
+    background-position: 0px 0px;
+    background-size: 176px 264px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.mainPanel{
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1),
+    0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+
+.logo{
+    margin-top: 36px;
+    overflow-y: visible;
+    margin-bottom: 12px;
+}
+
+form{
+    display: block;
+}
+
+.input{
+    display: inline-block;
+    margin: auto;
+    padding: 6px 0;
+}
+
+input{
+    font-size: 13px;
+    padding: 7px 8px;
+    width: 250px;
+}
+
+.inputFirst{
+    padding: 6px;
+}
+
+.inputSecond{
+    padding: 6px;
+}
+
+
+/* .logIn{
+    margin: 40px 8px;
+    border-bottom-left-radius: 0;
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    flex-shrink: 0;
+    position: relative;
+    justify-content: center;
+} */
+
+.logIn{
+    padding-top: 6px;
+}
+
+.logInButton{
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 35px;
+    padding: 0 16px;
+    width: 240px;
+    margin-left: 60px;
+}
+
+.button{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+
+.logInWith{
+    margin: 20px 8px;
+}
+
+button.logInWithFacebook{
+    background-color: transparent;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  outline: none; /* Remove outline on focus */
+  font-size: medium;
+}
+
+.errorpass{
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 398px;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1),
+    0 8px 16px rgba(0, 0, 0, .1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+  
+  .signup-text {
+    font-size: 14px;
+    color: #666;
+    margin-right: 5px;
+  }
+  
+  .signup-link {
+    font-size: 18px;
+    color: #0077fb;
+    text-decoration: none;
+    border-bottom: 1px solid #0077fb;
+    transition: border-bottom 0.2s ease-in-out;
+  }
+  
+  .signup-link:hover {
+    border-bottom: 2px solid #0077fb;
+  }
+  
+  .footer{
+    text-align: center;
+    margin: 25px 0px;
+  }
+
+  a.app{
+    text-decoration: none;
+  }
