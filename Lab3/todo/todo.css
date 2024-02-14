@@ -1,0 +1,76 @@
+body{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: rgb(175, 175, 175);
+    font-size: 20px;
+    padding: 15px 50px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#inputText{
+    width: 60%;
+    padding: 10px 30px;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#btn{
+    padding: 10px 20px;
+    color: white;
+    background-color: #1877F2;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 100px;
+}
+
+#btn:hover{
+    background-color: #1255ad;
+}
+
+h1{
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+    position: relative;
+    padding: 20px;
+    border: 1px solid rgb(155, 155, 155);
+}
+
+.text{
+    margin-left: 20px;
+}
+
+.delete{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px 20px;
+    font-size: 23px;
+}
+
+.delete:hover{
+    background-color: red;
+}
