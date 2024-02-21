@@ -1,0 +1,14 @@
+<section class="detail">
+  <h2>Product Details</h2>
+
+  <div *ngIf="product">
+    <h3 class="name">{{ product.name }}</h3>
+    <img class="listing-photo" [src]="product.image" alt="Exterior photo of {{product.name}}">
+    <p>
+      <span class="price"> Price: {{ product.price }} &#8376; </span>
+      <span class="rating">Rating: {{ product.rating}} / 5</span>
+    </p>
+    <p class="description">{{ product.description }}</p>
+    <button type="button" (click)="addToCart(product)">Buy</button>
+  </div>
+</section>

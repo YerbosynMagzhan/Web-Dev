@@ -1,0 +1,30 @@
+div, h2{
+    margin: 30px;
+}
+
+.image{
+    width: 150px;
+    height: 211px;
+}
+
+
+
+.telegram-button i{
+    display: inline-block;
+    height: 14px;
+    width: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: -2px;
+    background: url('https://telegram.org/img/oauth/tg_button_small.png') no-repeat;
+    background-size: contain;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px;
+}
